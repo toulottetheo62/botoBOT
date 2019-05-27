@@ -1,6 +1,0 @@
-{
-    "git.autofetch": true,
-    "http.proxy": "http://192.168.22.62:3128",
-    "http.proxyStrictSSL": false,
-    "http.proxySupport": "on"
-}
