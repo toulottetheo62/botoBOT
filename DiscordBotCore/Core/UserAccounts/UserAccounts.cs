@@ -9,10 +9,24 @@ namespace DiscordBotCore.Core.UserAccounts
     public static class UserAccounts
     {
         private static List<UserAccount> accounts;
+        private static string accountsFile = "Ressources/accounts.json";
 
         static UserAccounts()
         {
+            if (DataStorage.SaveExists(accountsFile))
+            {
+                accounts = DataStorage.LoadUserAccounts(accountsFile).ToList();
+            }
+            else
+            {
+                accounts = new List<UserAccount>();
+                SaveAccounts();
+            }
+        }
 
+        public static void SaveAccounts()
+        {
+            DataStorage.SaveUserAccounts(accounts, accountsFile);
         }
 
         public static UserAccount GetAccount(SocketUser user) //translation between socket & ID
@@ -44,6 +58,7 @@ namespace DiscordBotCore.Core.UserAccounts
             };
 
             accounts.Add(newAccount);
+            SaveAccounts();
             return newAccount;
         }
     }

@@ -10,8 +10,9 @@ namespace DiscordBotCore
         CommandHandler _handler;
 
         private static void Main(string[] args)
-        => new Program().StartAsync().GetAwaiter().GetResult();
-        
+        {
+            new Program().StartAsync().GetAwaiter().GetResult();
+        }
 
         public async Task StartAsync()
         {
@@ -19,8 +20,9 @@ namespace DiscordBotCore
             //string template = Utilities.GetAlert("WElCOME_&NAME");
             string botname = "BotoBOT";
             string message = Utilities.GetFormattedAlert("WELCOME_&NAME_&BOTNAME", name, botname);
-            Console.WriteLine(message); //dza
+            Console.WriteLine(message); //
             */
+            //return;
 
             if (Config.bot.token == "" || Config.bot.token == null) return;
 

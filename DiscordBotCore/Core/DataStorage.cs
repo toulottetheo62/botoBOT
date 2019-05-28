@@ -34,5 +34,9 @@ namespace DiscordBotCore.Core
 
         }
 
+        public static bool SaveExists(string filePath)
+        {
+            return File.Exists(filePath);
+        }
     }
 }
