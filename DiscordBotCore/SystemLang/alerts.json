@@ -3,5 +3,17 @@
     "WELCOME_&NAME_&BOTNAME": "Hello {0} ! My name is {1} ! How may I help you ?",
     "SECRET": "`azer<3`.  ",
     "MYSTATS_&XP_&PTS": "You have currently {0} Xp and {1} points.",
-    "GIVEXP_&NAME_&XP":  "{0} gained {1} Xp."
+    "GIVEXP_&NAME_&XP": "{0} gained {1} Xp.",
+    "CLASS&Barbarian": "A fierce warrior of primitive background who can enter a battle rage",
+    "CLASS&Bard": "An inspiring magician whose power echoes the music of creation",
+    "CLASS&Cleric": "A priestly champion who wields divine magic in service of a higher power",
+    "CLASS&Druid": "A priest of the Old Faith, wielding the powers of nature — moonlight and plant growth, fire and lightning — and adopting animal forms",
+    "CLASS&Fighter": "A master of martial combat, skilled with a variety of weapons and armor",
+    "CLASS&Monk": "A master of martial arts, harnessing the power of the body in pursuit of physical and spiritual perfection",
+    "CLASS&Paladin": "A holy warrior bound to a sacred oath",
+    "CLASS&Ranger": "A warrior who uses martial prowess and nature magic to combat threats on the edges of civilization",
+    "CLASS&Rogue": "A scoundrel who uses stealth and trickery to overcome obstacles and enemies",
+    "CLASS&Sorcerer": "A spellcaster who draws on inherent magic from a gift or bloodline",
+    "CLASS&Warlock": "A wielder of magic that is derived from a bargain with an extraplanar entity",
+    "CLASS&Wizard": "A scholarly magic-user capable of manipulating the structures of reality"
 }
