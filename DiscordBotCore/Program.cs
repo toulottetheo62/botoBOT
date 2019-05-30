@@ -2,6 +2,8 @@
 using System;
 using System.Threading.Tasks;
 using Discord;
+using DiscordBotCore.Service;
+
 namespace DiscordBotCore
 {
     internal class Program
@@ -16,15 +18,7 @@ namespace DiscordBotCore
 
         public async Task StartAsync()
         {
-            /*string name = "Bob";
-            //string template = Utilities.GetAlert("WElCOME_&NAME");
-            string botname = "BotoBOT";
-            string message = Utilities.GetFormattedAlert("WELCOME_&NAME_&BOTNAME", name, botname);
-            Console.WriteLine(message); //
-            */
-            //return;
-
-            if (Config.bot.token == "" || Config.bot.token == null) return;
+                      if (Config.bot.token == "" || Config.bot.token == null) return;
 
             _client = new DiscordSocketClient(new DiscordSocketConfig
             {

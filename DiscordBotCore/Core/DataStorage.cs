@@ -19,8 +19,6 @@ namespace DiscordBotCore.Core
             }
             catch (FileNotFoundException) { /* -- */ };
             
-
-
         }
 
         //getalluseraccounts        
