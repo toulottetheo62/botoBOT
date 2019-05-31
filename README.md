@@ -9,6 +9,7 @@ Un bot Discord , pouvant etre utilisé pour récuperer des info sur donjon&drago
 Développoé en .NET Core avec VisualStudio2017, L'API DISCORD, OPEN5E
 Occsation interessante de découvrir L'API et Discord et .NET CORE Encore presque jamais etudié auparavant.
 https://discord.gg/P84RN3N to join a test of the bot on a discord channel
+Framewarok utilisé : NewtonSoft.json Discord.net 
 
 Le Token et le prefixe de commande sont à configuré dans Ressource/config.json ( voir Config.cs ).
 
