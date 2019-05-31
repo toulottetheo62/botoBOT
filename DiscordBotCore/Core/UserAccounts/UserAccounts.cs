@@ -61,5 +61,22 @@ namespace DiscordBotCore.Core.UserAccounts
             SaveAccounts();
             return newAccount;
         }
+
+
+        
+
+        public static int DeleteUserAccount(UserAccount account)
+        {
+            if (!accounts.Contains(account)) return 404;
+
+            accounts.Remove(account);
+
+            SaveAccounts();
+
+            return 200;
+
+        }
+
+      
     }
 }

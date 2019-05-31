@@ -2,7 +2,7 @@
     "TEST": "Hello world !",
     "WELCOME_&NAME_&BOTNAME": "Hello {0} ! My name is {1} ! How may I help you ?",
     "SECRET": "`azer<3`.  ",
-    "MYSTATS_&XP_&PTS": "You have currently {0} Xp and {1} points.",
+    "STATS_&NAME_&XP": "{0} is Level {1}.",
     "GIVEXP_&NAME_&XP": "{0} gained {1} Xp.",
     "CLASS&Barbarian": "A fierce warrior of primitive background who can enter a battle rage",
     "CLASS&Bard": "An inspiring magician whose power echoes the music of creation",
