@@ -94,7 +94,7 @@ namespace DiscordBotCore.Modules
 
             using (WebClient client = new WebClient())
             {
-                json = client.DownloadString("https://api-beta.open5e.com/races/?name=Dwarf");   //API DONJON&DRAGON5
+                json = client.DownloadString("https://api-beta.open5e.com/races/?name="+fName);   //API DONJON&DRAGON5
                
             }   
             var dataObject = JsonConvert.DeserializeObject<dynamic>(json);
